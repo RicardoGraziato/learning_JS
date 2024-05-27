@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileiro ou estrangeiro</title>
+    <style>
+        body {
+            background-color: rgb(49, 17, 192);
+            color: aliceblue;
+            font: normal 16pt Arial; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Este arquivo é um exercício prático.</h1>
+    Em qual país você nasceu? <input type="text" id="txtpais" name="txtpais">
+    <input type="button" value="Pronto" onclick="resposta()">
+    <div id="res">
+
+    </div>
+    <script>
+        function resposta() {
+            txtpais = window.document.querySelector('input#txtpais')
+            res = window.document.getElementById('res')
+            var pais = txtpais.value
+            res.innerHTML = `<p>Você nasceu no(a) <strong>${pais}</strong>.<p>`
+            if(pais.toUpperCase() == 'BRASIL' || pais.toUpperCase() == 'BRAZIL') {
+                res.innerHTML += `<p>Portando você é <strong>Brasileiro</strong>.</p>`
+            } else {
+                res.innerHTML += `<p>Portando você é <strong>Estrangeiro</strong> (Ou digitou um país inexistente/inválido).</p>`
+            }
+        }
+    </script>
+</body>
+</html>
