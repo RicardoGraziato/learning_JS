@@ -1,10 +1,10 @@
 body {
-    background: rgb(24, 124, 218);
+    background: aqua;
     font: normal 15pt Arial;
 }
 
-header {
-    color: white;
+header{
+    color: aliceblue;
     text-align: center;
 }
 
@@ -15,14 +15,4 @@ section {
     width: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
-}
-
-div {
-    text-align: center;
-    padding: 8px;
-}
-
-footer {
-    color: aliceblue;
-    text-align: center;
 }
