@@ -1,2 +1,5 @@
 # learning_JS
-Repositório para práticas de JavaScript com base no curso do canal "Curso em Vídeo"
+## Repositório para aprendizagem/práticas em **JavaScript** com base em **ECMAScript**.
+
+## Material didático:
+"Curso Grátis de JavaScript e ECMAScript para iniciantes - **Curso em Vídeo**."
